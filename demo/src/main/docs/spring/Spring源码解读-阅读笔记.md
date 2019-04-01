@@ -1,0 +1,8 @@
+《Spring 源码深度解读》
+
+整个Bean加载的核心类为：DefaultListableBeanFactory
+XMLBeanFactory继承自DefaultListableBeanFactory
+
+XMLBeanFactory使用了自定义XML文件读取器来读取XML文件读取Bean
+DefaultListableBeanFactory通过配置和注入的方式读取Bean
+
